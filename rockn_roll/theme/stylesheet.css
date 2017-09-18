@@ -436,7 +436,42 @@ a.topictitle:active {
     box-shadow: 0 0 10px #3b3d3e;
 }
 
-/* Colours and backgrounds for Rock'n Roll */
+/* Jumpbox */
+.jumpbox .dropdown li {
+	border-top-color: #CCCCCC;
+}
+
+.jumpbox-cat-link {
+	background-color: #ACACAC;
+	border-top-color: #E18935;
+	color: #FFFFFF;
+}
+
+.jumpbox-cat-link:hover {
+	background-color: #ACAC90;
+	border-top-color: #F0D9A5;
+	color: #000000;
+}
+
+.jumpbox-forum-link {
+	background-color: #ACAC90;
+}
+
+.jumpbox-forum-link:hover {
+	background-color: #E1EBF2;
+}
+
+.jumpbox .dropdown .pointer-inner {
+	border-color: #E1EBF2 transparent;
+}
+
+.jumpbox-sub-link {
+	background-color: #F0F0F0;
+}
+
+.jumpbox-sub-link:hover {
+	background-color: #ACAC90;
+}
 
 /*
 .button {
@@ -597,9 +632,16 @@ li.row strong {
     height: auto !important;
     max-height: 46px;
 	}
-}
 
-@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	.has-profile .post-buttons {
+    right: 10px;
+    top: 15px;
+	}
+
+	.online {
+    background-size: 5px;
+	}
+
 	dl.details dt, dl.details dd {
     width: auto;
     float: none;
