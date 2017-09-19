@@ -48,7 +48,7 @@ hr.dashed {
 }
 
 #search-box #keywords {
-	background-color: #FFF;
+	background-color: #FFFFFF;
 }
 
 #search-box input {
@@ -93,7 +93,7 @@ hr.dashed {
 }
 
 .bg1	{ background-color: #EFEFEF; }
-.bg2	{ background-color: #EFEFEF;  }
+.bg2	{ background-color: #EFEFEF; }
 .bg3	{ background-color: #DBDBDB; }
 
 .ucprowbg {
@@ -117,7 +117,7 @@ ul.topiclist dd {
 }
 
 .rtl ul.topiclist dd {
-	border-right-color: #fff;
+	border-right-color: #FFFFFF;
 	border-left-color: transparent;
 }
 
@@ -265,7 +265,7 @@ dl.codebox {
 }
 
 dl.codebox dt {
-	border-bottom-color:  #CCCCCC;
+	border-bottom-color: #CCCCCC;
 }
 
 dl.codebox code {
