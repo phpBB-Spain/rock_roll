@@ -368,6 +368,17 @@ a.topictitle:active {
 	background-color: transparent;
 }
 
+.signature {
+    margin-top: 1.5em;
+    padding-top: 0.2em;
+    font-size: 1.1em;
+    border-top: 2px dashed #73797C;
+    clear: left;
+    line-height: 140%;
+    overflow: hidden;
+    width: 100%;
+}
+
 /* Profile links */
 .postprofile a:link, .postprofile a:visited, .postprofile dt.author a {
 	color: #105289;
