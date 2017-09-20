@@ -105,7 +105,7 @@ hr.dashed {
 }
 
 ul.forums, ul.topics {
-	background-color: #eef5f9;
+	background-color: #EEF5F9;
 }
 
 ul.topiclist li {
@@ -241,7 +241,7 @@ dl.faq dt {
 /* Quote block */
 blockquote {
 	background-color: #EBEADD;
-	border-color:#DBDBCE;
+	border-color: #DBDBCE;
 }
 
 .rtl blockquote {
@@ -250,7 +250,7 @@ blockquote {
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#EFEED9;
+	background-color: #EFEED9;
 }
 
 blockquote blockquote blockquote {
@@ -433,7 +433,7 @@ a.topictitle:active {
 }
 
 .search-header {
-    box-shadow: 0 0 10px #3b3d3e;
+    box-shadow: 0 0 10px #3B3D3E;
 }
 
 /* Jumpbox */
@@ -614,7 +614,7 @@ li.row strong {
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
 	.site_logo {
-	background-image: url("./images/roll_logo_small.png");
+	background-image: url(./images/roll_logo_small.png);
 	display: inline-block;
 	width: 43px;
 	height: 60px;
@@ -671,7 +671,7 @@ li.row strong {
 	color: #FFFFFF;
 	padding: 4px 10px;
 	text-decoration: none;
-	border-right: 1px solid #3b3d3e;
+	border-right: 1px solid #3B3D3E;
 }
 
 .solidblockmenu li a:visited{
@@ -680,7 +680,7 @@ li.row strong {
 
 .solidblockmenu li a:hover, .solidblockmenu li a.current{
 	color: #FFFFFF;
-	background: transparent url("./images/blockactive.gif") center center repeat-x;
+	background: transparent url(./images/blockactive.gif) center center repeat-x;
 }
 
 .tabcontainer{
