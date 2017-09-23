@@ -35,6 +35,7 @@ Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "
 
 ## Autor
 Vinny
+
 ThE KuKa (Raúl Arroyo Monzo)
 
 ## © 2003 / 2017 [phpBB España](http://www.phpbb-es.com)
