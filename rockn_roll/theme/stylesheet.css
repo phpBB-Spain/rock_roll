@@ -157,6 +157,11 @@ li.header dt, li.header dd {
 	color: #FFFFFF;
 }
 
+ul.linklist li.responsive-menu {
+    position: relative;
+    margin: 0 5px 0 5px;
+}
+
 /* Forum list column styles */
 ul.topiclist dd.searchextra {
 	color: #333333;
@@ -558,6 +563,86 @@ li.row strong {
 	font-weight: bold;
 	color: inherit;
 }
+
+/* Buttons CSS */
+
+.button {
+	display: inline-block;
+	padding: 2px 8px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: bebasregular, "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	    touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	border: 1px solid transparent;
+}
+
+.button:focus,
+.button:hover {
+ 	text-decoration: none;
+ 	outline: none;
+}
+
+.caret {
+	border-left: 1px solid;
+	position: relative;
+	right: -6px;
+}
+
+.caret i {
+	vertical-align: top;
+}
+
+.button {
+    background-image: linear-gradient(to bottom, #525252 0%,#525252 100%);
+	-webkit-box-shadow: 0 0 0 1px #525252 inset;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525252', endColorstr='#525252',GradientType=0 );
+    border: 1px solid #525252;
+	color: #333;
+}
+
+.button:hover, .button:focus {
+	color: #000000;
+	background-color: #B8637A;
+	border-color: #000000;
+}
+
+.button:active {
+	color:#fff;
+	background-color:#000000;
+}
+
+.button .icon,
+.button-secondary {
+	color: #333;
+}
+
+.button-secondary:focus,
+.button-secondary:hover,
+.button:focus .icon,
+.button:hover .icon {
+	color: #000;
+}
+
+.button-search:hover,
+.button-search-end:hover {
+	border-color: #C7C3BF;
+}
+
+.caret	{ border-color: #DADADA; }
+.caret	{ border-color: #C7C3BF; }
+
+.contact-icons a		{ border-color: #DCDCDC; }
+.contact-icons a:hover	{ background-color: #fec; }
 
 /* Online/Offline status Rock'n Roll */
 .online {
