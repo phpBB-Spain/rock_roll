@@ -110,10 +110,6 @@ ul.topiclist2 dt .list-inner2 {
     padding-right: 5px;
 }
 
-ul {
-    list-style-type: none;
-}
-
 ul.forums, ul.topics {
 	background-color: #EEF5F9;
 }
