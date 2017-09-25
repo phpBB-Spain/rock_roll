@@ -603,11 +603,11 @@ li.row strong {
 }
 
 .button {
-    background-image: linear-gradient(to bottom, #525252 0%,#525252 100%);
-	-webkit-box-shadow: 0 0 0 1px #525252 inset;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525252', endColorstr='#525252',GradientType=0 );
+    background-image: linear-gradient(to bottom, #FFFFFF 0%,#F6F6F6 100%);
+	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#525252',GradientType=0 );
     border: 1px solid #525252;
-	color: #333;
+	color: #333333;
 }
 
 .button:hover, .button:focus {
@@ -617,20 +617,20 @@ li.row strong {
 }
 
 .button:active {
-	color:#fff;
+	color:#FFFFFF;
 	background-color:#000000;
 }
 
 .button .icon,
 .button-secondary {
-	color: #333;
+	color: #333333;
 }
 
 .button-secondary:focus,
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: #000;
+	color: #000000;
 }
 
 .button-search:hover,
@@ -642,7 +642,7 @@ li.row strong {
 .caret	{ border-color: #C7C3BF; }
 
 .contact-icons a		{ border-color: #DCDCDC; }
-.contact-icons a:hover	{ background-color: #fec; }
+.contact-icons a:hover	{ background-color: #FEC000; }
 
 /* Online/Offline status Rock'n Roll */
 .online {
