@@ -48,7 +48,7 @@ hr.dashed {
 }
 
 #search-box #keywords {
-	background-color: #FFF;
+	background-color: #FFFFFF;
 }
 
 #search-box input {
@@ -93,7 +93,7 @@ hr.dashed {
 }
 
 .bg1	{ background-color: #EFEFEF; }
-.bg2	{ background-color: #EFEFEF;  }
+.bg2	{ background-color: #EFEFEF; }
 .bg3	{ background-color: #DBDBDB; }
 
 .ucprowbg {
@@ -104,8 +104,18 @@ hr.dashed {
 	background-color: #E7E8EA;
 }
 
+ul.topiclist2 dt .list-inner2 {
+    margin-right: 95%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
 ul.forums, ul.topics {
-	background-color: #eef5f9;
+	background-color: #EEF5F9;
 }
 
 ul.topiclist li {
@@ -117,7 +127,7 @@ ul.topiclist dd {
 }
 
 .rtl ul.topiclist dd {
-	border-right-color: #fff;
+	border-right-color: #FFFFFF;
 	border-left-color: transparent;
 }
 
@@ -145,6 +155,11 @@ li.row:hover dd {
 
 li.header dt, li.header dd {
 	color: #FFFFFF;
+}
+
+ul.linklist li.responsive-menu {
+    position: relative;
+    margin: 0 5px 0 5px;
 }
 
 /* Forum list column styles */
@@ -241,7 +256,7 @@ dl.faq dt {
 /* Quote block */
 blockquote {
 	background-color: #EBEADD;
-	border-color:#DBDBCE;
+	border-color: #DBDBCE;
 }
 
 .rtl blockquote {
@@ -250,7 +265,7 @@ blockquote {
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#EFEED9;
+	background-color: #EFEED9;
 }
 
 blockquote blockquote blockquote {
@@ -265,7 +280,7 @@ dl.codebox {
 }
 
 dl.codebox dt {
-	border-bottom-color:  #CCCCCC;
+	border-bottom-color: #CCCCCC;
 }
 
 dl.codebox code {
@@ -368,6 +383,17 @@ a.topictitle:active {
 	background-color: transparent;
 }
 
+.signature {
+    margin-top: 1.5em;
+    padding-top: 0.2em;
+    font-size: 1.1em;
+    border-top: 2px dashed #73797C;
+    clear: left;
+    line-height: 140%;
+    overflow: hidden;
+    width: 100%;
+}
+
 /* Profile links */
 .postprofile a:link, .postprofile a:visited, .postprofile dt.author a {
 	color: #105289;
@@ -433,67 +459,45 @@ a.topictitle:active {
 }
 
 .search-header {
-    box-shadow: 0 0 10px #3b3d3e;
+    box-shadow: 0 0 10px #3B3D3E;
 }
 
-/* Colours and backgrounds for Rock'n Roll */
+/* Jumpbox */
+.jumpbox .dropdown li {
+	border-top-color: #CCCCCC;
+}
 
-/*
-.button {
-	border-color: #888686;
-	background-color: #888686;
-	background-image: -moz-linear-gradient(top, #888686, #FFFFFF);
-	background-image: -webkit-linear-gradient(top, #888686, #FFFFFF);
-	background-image: -o-linear-gradient(top, #888686, #FFFFFF);
-	background-image: linear-gradient(to bottom, #888686, #FFFFFF);
-    font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
-	font-weight: bold;
-	height: auto;
-	line-height: 18px;
-	text-transform: uppercase;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#888686', EndColorStr='#FFFFFF')";
-	box-shadow: 0 0 0 1px #888686 inset;
-	-webkit-box-shadow: 0 0 0 1px #888686 inset;
-	transition: all 0.2s;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+.jumpbox-cat-link {
+	background-color: #ACACAC;
+	border-top-color: #E18935;
+	color: #FFFFFF;
+}
+
+.jumpbox-cat-link:hover {
+	background-color: #ACAC90;
+	border-top-color: #F0D9A5;
 	color: #000000;
 }
 
-.dropdown-select {
-	color: #536482;
+.jumpbox-forum-link {
+	background-color: #ACAC90;
 }
 
-.button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
-	border-color: #888686;
-	background-image: -moz-linear-gradient(top, #FFFFFF, #888686);
-	background-image: -webkit-linear-gradient(top, #FFFFFF, #888686);
-	background-image: -o-linear-gradient(top, #FFFFFF, #888686);
-	background-image: linear-gradient(to bottom, #FFFFFF, #888686);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#888686')";
-	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #888686, -1px -1px 0 rgba(188, 42, 77, 0.2);
+.jumpbox-forum-link:hover {
+	background-color: #E1EBF2;
 }
 
-.dropdown-select:after	{ border-color: #888686; }
-.dropdown-select:hover	{ border-color: #888686; }
-
-.dropdown-visible .dropdown-select, .dropdown-visible .dropdown-select:hover, .nojs .dropdown-container:hover .dropdown-select {
-	border-color: #888686;
-	color: #105289;
+.jumpbox .dropdown .pointer-inner {
+	border-color: #E1EBF2 transparent;
 }
 
-.contact-icons a	{ border-color: #DCDCDC; }
-.contact-icons a:hover	{ background-color: #888686; }
+.jumpbox-sub-link {
+	background-color: #F0F0F0;
+}
 
-.btn-toolbar .btn-group, .btn-toolbar .input-group {
-    	float: left;
+.jumpbox-sub-link:hover {
+	background-color: #ACAC90;
 }
-.btn-group, .btn-group-vertical {
-    	position: relative;
-    	display: inline-block;
-    	vertical-align: middle;
-}
-*/
 
 /* Forum icons & Topic icons */
 
@@ -560,6 +564,86 @@ li.row strong {
 	color: inherit;
 }
 
+/* Buttons CSS */
+
+.button {
+	display: inline-block;
+	padding: 2px 8px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: bebasregular, "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	    touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	border: 1px solid transparent;
+}
+
+.button:focus,
+.button:hover {
+ 	text-decoration: none;
+ 	outline: none;
+}
+
+.caret {
+	border-left: 1px solid;
+	position: relative;
+	right: -6px;
+}
+
+.caret i {
+	vertical-align: top;
+}
+
+.button {
+    background-image: linear-gradient(to bottom, #FFFFFF 0%,#F6F6F6 100%);
+	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#525252',GradientType=0 );
+    border: 1px solid #525252;
+	color: #333333;
+}
+
+.button:hover, .button:focus {
+	color: #000000;
+	background-color: #B8637A;
+	border-color: #000000;
+}
+
+.button:active {
+	color:#FFFFFF;
+	background-color:#000000;
+}
+
+.button .icon,
+.button-secondary {
+	color: #333333;
+}
+
+.button-secondary:focus,
+.button-secondary:hover,
+.button:focus .icon,
+.button:hover .icon {
+	color: #000000;
+}
+
+.button-search:hover,
+.button-search-end:hover {
+	border-color: #C7C3BF;
+}
+
+.caret	{ border-color: #DADADA; }
+.caret	{ border-color: #C7C3BF; }
+
+.contact-icons a		{ border-color: #DCDCDC; }
+.contact-icons a:hover	{ background-color: #FEC000; }
+
 /* Online/Offline status Rock'n Roll */
 .online {
 	background-image: url(./images/icons/icon_user_online.gif);
@@ -579,7 +663,7 @@ li.row strong {
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
 	.site_logo {
-	background-image: url("./images/roll_logo_small.png");
+	background-image: url(./images/roll_logo_small.png);
 	display: inline-block;
 	width: 43px;
 	height: 60px;
@@ -597,9 +681,16 @@ li.row strong {
     height: auto !important;
     max-height: 46px;
 	}
-}
 
-@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	.has-profile .post-buttons {
+    right: 10px;
+    top: 15px;
+	}
+
+	.online {
+    background-size: 5px;
+	}
+
 	dl.details dt, dl.details dd {
     width: auto;
     float: none;
@@ -629,7 +720,7 @@ li.row strong {
 	color: #FFFFFF;
 	padding: 4px 10px;
 	text-decoration: none;
-	border-right: 1px solid #3b3d3e;
+	border-right: 1px solid #3B3D3E;
 }
 
 .solidblockmenu li a:visited{
@@ -638,7 +729,7 @@ li.row strong {
 
 .solidblockmenu li a:hover, .solidblockmenu li a.current{
 	color: #FFFFFF;
-	background: transparent url("./images/blockactive.gif") center center repeat-x;
+	background: transparent url(./images/blockactive.gif) center center repeat-x;
 }
 
 .tabcontainer{
