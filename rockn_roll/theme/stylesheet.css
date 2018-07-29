@@ -570,7 +570,7 @@ li.row strong {
 	display: inline-block;
 	padding: 2px 8px;
 	font-size: 13px;
-	font-weight: bold;
+	font-weight: 600;
 	font-family: bebasregular, "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;
 	line-height: 1.4;
 	text-align: center;
