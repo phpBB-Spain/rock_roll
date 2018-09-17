@@ -462,6 +462,20 @@ a.topictitle:active {
     box-shadow: 0 0 10px #3B3D3E;
 }
 
+ /* Miscellaneous styles
+ ---------------------------------------- */
+.copyright {
+	font-size: 10px;
+ 	text-align: center;
+	padding: 10px;
+}
+
+.footer-row {
+	font-size: 10px;
+	line-height: 1.8;
+	margin: 0;
+}
+ 
 /* Jumpbox */
 .jumpbox .dropdown li {
 	border-top-color: #CCCCCC;
