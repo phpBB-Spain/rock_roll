@@ -25,10 +25,10 @@ Requiere:
 Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
 
 ## Algunas capturas
-![phpBB Spain](http://www.phpbb-es.com/archivos/roll_screen.png) 
-![phpBB Spain](http://www.phpbb-es.com/archivos/roll_screen2.png) 
+![phpBB Spain](https://www.phpbb-es.com/archivos/roll_screen.png) 
+![phpBB Spain](https://www.phpbb-es.com/archivos/roll_screen2.png) 
 
-## [Demo Online - Rock'n Roll](http://www.phpbb-es.com/IDLaunch/index.php?style=10)
+## [Demo Online - Rock'n Roll](https://www.phpbb-es.com/styles/demo/#rockn_roll)
 
 ## License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
@@ -38,6 +38,6 @@ Vinny
 
 ThE KuKa (Raúl Arroyo Monzo)
 
-## © 2003 / 2017 [phpBB España](http://www.phpbb-es.com)
+## © 2003 / 2019 [phpBB España](https://www.phpbb-es.com)
 
-![phpBB Spain](http://www.phpbb-es.com/images/logo_es.png) 
+![phpBB Spain](https://www.phpbb-es.com/images/logo_es.png) 
