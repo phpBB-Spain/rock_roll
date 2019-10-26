@@ -24,10 +24,6 @@ Requiere:
 ## Corrección de errores
 Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
 
-## Algunas capturas
-![phpBB Spain](https://www.phpbb-es.com/archivos/roll_screen.png) 
-![phpBB Spain](https://www.phpbb-es.com/archivos/roll_screen2.png) 
-
 ## [Demo Online - Rock'n Roll](https://www.phpbb-es.com/styles/demo/#rockn_roll)
 
 ## License
